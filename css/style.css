@@ -149,6 +149,9 @@ li {
     div#mainvisual {
         width: 100vw;
     }
+    section#about {
+        padding: 5px;
+    }
     div#profile {
         width: 100vw;
         flex-direction: column;
@@ -156,6 +159,9 @@ li {
     #profile img {
         margin-right: 0;
         margin-left: 130px;
+    }
+    p {
+        text-align: inherit;
     }
     section#bicycle {
         width: 100vw;
@@ -165,8 +171,10 @@ li {
         flex-direction: column;
     }
     li.title {
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
         margin-bottom: 20px;
     }
+  
 }
     
