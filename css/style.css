@@ -157,8 +157,10 @@ li {
         flex-direction: column;
     }
     #profile img {
-        margin-right: 0;
-        margin-left: 130px;
+    /* margin-right: 0; */
+    /* margin-left: 130px; */
+       display: block;
+       margin: 0 auto;
     }
     p {
         text-align: inherit;
@@ -168,7 +170,9 @@ li {
     }
     ul#bicycle {
         width: 100vw;
-        flex-direction: column;
+    /* flex-direction: column; */
+        display: block;
+    /* margin: 0 auto; */
     }
     li.title {
         width: 95%;
