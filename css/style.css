@@ -1,5 +1,9 @@
 @charset "utf-8";
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     width: 960px;
     margin: 0 auto;
@@ -109,11 +113,7 @@ li {
     text-align: center;
 }
 /* パソコン、タブレット */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /*タブレット 縦のみ	*/
 @media screen and (max-width: 1024px) and (orientation: portrait){
@@ -136,7 +136,12 @@ li {
     
 }
 @media screen and (max-width: 600px){
-    
+    /** {*/
+    /*    margin: 0;*/
+    /*    padding: 0;*/
+    /*    box-sizing: border-box;*/
+    /*}*/
+
     html {
         width: 100vw;
     }
@@ -146,38 +151,65 @@ li {
     header {
         width: 100vw;
     }
+    main {
+        width: 100vw;
+        /*padding: 10px;*/
+    }
     div#mainvisual {
         width: 100vw;
+        /*padding: 5px;*/
     }
     section#about {
-        padding: 5px;
+        padding: 25px !important;
     }
     div#profile {
-        width: 100vw;
+        width: 88vw;
+        /* padding: 5px; */
         flex-direction: column;
+    }
+    #profile div {
+        display: block;
+        justify-content: center;
+        width: 100%;
+        /* align-items: center; */
+        /* font-size: xxx-large; */
     }
     #profile img {
     /* margin-right: 0; */
     /* margin-left: 130px; */
        display: block;
        margin: 0 auto;
+        margin-bottom: 25px;
+
     }
     p {
         text-align: inherit;
     }
     section#bicycle {
         width: 100vw;
+        /*padding: 5px;*/
     }
     ul#bicycle {
         width: 100vw;
     /* flex-direction: column; */
         display: block;
+        /*padding: 5px;*/
     /* margin: 0 auto; */
+    }
+    ul#bicycle {
+        width: 100vw;
+        /* flex-direction: column; */
+        display: block;
+         padding: 10px !important; 
+        /* margin: 0 auto; */
     }
     li.title {
         width: 95%;
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+    footer {
+        width: 100vw;
     }
   
 }
